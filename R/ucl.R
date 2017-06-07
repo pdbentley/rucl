@@ -136,7 +136,7 @@ singleUCL <- function(x, d, type, confidence, N, ...) {
     o.zucl = "b.zucl(m, se, confidence)",
     o.zboot = "b.zboot(B, confidence)",
     o.tboot = "u.tboot(x, m, se, confidence, N)",
-    o.hallboot = "b.hallboot(x, m, n, sk, se, confidence, N)",
+    o.hallboot = "b.hallboot(x, m, n, sk, se, confidence, N, na.rm=T)",
     o.pboot = "b.pboot(B, confidence)",
     o.bcaboot = "u.bcaboot(B, x, m, n, confidence, N)",
     o.cheb95 = "b.cheb(m, se, 0.95)",
